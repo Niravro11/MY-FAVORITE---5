@@ -1,0 +1,56 @@
+body {
+  text-align: center;
+  background-color: beige;
+}
+h1 {
+  font-size: 72px;
+  color: green;
+  text-decoration: bold;
+}
+h3 {
+  font-size: 30px;
+  color: Navy;
+  text-decoration: bold;
+}
+p {
+  font-size: 20px;
+  color: maroon;
+}
+.menu {
+    background: white;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    margin-top: 0px;
+    width: 100%;
+}
+.links {
+    padding-left: 33px;
+    padding-right: 25px;
+    display: inline;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover {
+    background-color: red;
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+img {
+    transition: transform .2s;
+    border: 10px  solid: #AAAAAA;
+}
+}
+.line {
+    height: 6px;
+    background-color: green;
+    width: 70px;
+    margin: 8px auto;
+}
+img:hover {
+    transform: scale(0.9);
+}
+
+
